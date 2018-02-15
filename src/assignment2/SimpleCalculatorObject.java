@@ -32,19 +32,24 @@ class MathOperation {
         this.operand2 = operand2;
     }
 
-    public int add() {
-        return operand1 + operand2;
+    public String add() {
+        return operand1 + operand2 + "";
     }
 
-    public int subtract() {
-        return operand1 - operand2;
+    public String subtract() {
+        return operand1 - operand2 + "";
     }
 
-    public int multiply() {
-        return operand1 * operand2;
+    public String multiply() {
+        return operand1 * operand2 + "";
     }
 
-    public int divide() {
-        return operand1 / operand2;
+    public String divide() {
+        if (operand2 != 0) {
+            return operand1 / operand2 + "";
+        } else {
+            return "Can not divide by zero";
+        }
+
     }
 }
