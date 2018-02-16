@@ -5,6 +5,7 @@
 2. ‎Addition subtraction division multiplication
 3. ‎Switch case calculator
 
-## Assignment 2
-1. Calculator using object
-2. ‎Write a java program to define is class, describe it's constructor, overload the constructor, and instantiate the object
+## Assignment 2	(to be confirmed)
+1. Create Account class
+2. Calculator using object
+3. ‎Write a java program to define is class, describe it's constructor, overload the constructor, and instantiate the object
