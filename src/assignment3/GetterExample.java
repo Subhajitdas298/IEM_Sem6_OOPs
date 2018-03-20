@@ -1,3 +1,5 @@
+package assignment3;
+
 public class GetterExample {
   public static void main(String[] args) {
     SampleClass obj = new SampleClass(5, 9.0, "Hello World");

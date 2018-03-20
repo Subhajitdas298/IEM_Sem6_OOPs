@@ -55,9 +55,10 @@ public class BankAccountManager {
                     amount = input.nextInt();
                     acc1.deposit(amount);
                     System.out.println("Deposited : " + amount);
+                    System.out.println("Balance : " + acc1.getBalance());
                     break;
                 case 3:
-                    System.out.println("Withdraw amount : ");
+                    System.out.print("Withdraw amount : ");
                     amount = input.nextInt();
                     System.out.println("Withdrawal attempt of : " + amount);
                     if (acc1.withdraw(amount)) {
@@ -65,6 +66,7 @@ public class BankAccountManager {
                     } else {
                         System.out.println("Not sufficient funds.");
                     }
+                    System.out.println("Balance : " + acc1.getBalance());
                     break;
                 case 4:
                     System.exit(0);
@@ -78,13 +80,13 @@ public class BankAccountManager {
 class Account {
 
     private String depositor;
-    private long account_number;
+    private long accountNumber;
     private char type;
     private double balance;
 
     public void setData(String depositor, long account_number, char type, double balance) {
         this.depositor = depositor;
-        this.account_number = account_number;
+        this.accountNumber = account_number;
         this.type = type;
         this.balance = balance;
     }
@@ -104,5 +106,9 @@ class Account {
 
     public String getDepositor() {
         return depositor;
+    }
+    
+    public double getBalance(){
+        return balance;
     }
 }
