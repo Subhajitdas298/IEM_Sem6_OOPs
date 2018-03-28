@@ -40,13 +40,21 @@ ix. Print the charecter at index of 6
 x. Use substring and extract to print from 4 to 12
 xi. Replace 'G' with 'A' in 1st string
 xii. Take another string and print that string. After that use trim function over that string and print it.
-2. Print pattern:
+2. Print pattern:<br>
 &#42;<br>
 &#42;&#42;&#42;<br>
 &#42;&#42;&#42;&#42;&#42;<br>
-3. Print pattern:
-h
-ha
-hap
-happ
-happy
+3. Print pattern:<br>
+h<br>
+ha<br>
+hap<br>
+happ<br>
+happy<br>
+
+## Assignment 6
+1. Write a Java program to demonstrate use of subclass.
+2. Write a java program to print pattern:<br>
+       0<br>
+     1   1<br>
+   2   3   5<br>
+8   13   21   34<br>
