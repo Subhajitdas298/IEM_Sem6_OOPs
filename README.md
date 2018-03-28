@@ -27,18 +27,18 @@
 
 ## Assignment 5
 1. Write a Java program, to use it's String class and it's methods:
-i. Take 2 strings
-ii. Print them
-iii. Print the length of string
-iv. Print and find the 1st occurance of letter 'R' at it's position
-v. Print the string in upper case
-vi. Print the string in lower case
-vii. Find out if the 1st string is equal to 2nd string or not
-viii. Find out if the 1st string is equal to ignoring case 2nd string or not
-ix. Print the charecter at index of 6
-x. Use substring and extract to print from 4 to 12
-xi. Replace 'G' with 'A' in 1st string
-xii. Take another string and print that string. After that use trim function over that string and print it.
+    1. Take 2 strings
+    2. Print them
+    3. Print the length of string
+    4. Print and find the 1st occurance of letter 'R' at it's position
+    5. Print the string in upper case
+    6. Print the string in lower case
+    7. Find out if the 1st string is equal to 2nd string or not
+    8. Find out if the 1st string is equal to ignoring case 2nd string or not
+    9. Print the charecter at index of 6
+    10. Use substring and extract to print from 4 to 12
+    11. Replace 'G' with 'A' in 1st string
+    12. Take another string and print that string. After that use trim function over that string and print it.
 2. Print pattern:<br>
 &#42;<br>
 &#42;&#42;&#42;<br>
