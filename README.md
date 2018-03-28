@@ -19,8 +19,7 @@
 1. Write a Java program to define class, define instance methods and overload them and use them for dynamic method invocation.
 2. Write a java program to sum up the digits of a given program.
 3. Write a java program to check whether a given no is equal to the original number.
-4. Write a java program to print the pattern by giving input from users.
-
+4. Write a java program to print the pattern by giving input from users:
 &#42;<br>
 &#42;&#42;<br>
 &#42;&#42;&#42;<br>
@@ -54,7 +53,7 @@ happy<br>
 ## Assignment 6
 1. Write a Java program to demonstrate use of subclass.
 2. Write a java program to print pattern:<br>
-       0<br>
-     1   1<br>
-   2   3   5<br>
-8   13   21   34<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;1<br>
+&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;5<br>
+8&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;21&nbsp;&nbsp;&nbsp;34<br>
