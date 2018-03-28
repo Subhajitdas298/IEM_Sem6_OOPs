@@ -25,3 +25,28 @@
 &#42;&#42;<br>
 &#42;&#42;&#42;<br>
 &#42;&#42;&#42;&#42;<br>
+
+## Assignment 5
+1. Write a Java program, to use it's String class and it's methods:
+i. Take 2 strings
+ii. Print them
+iii. Print the length of string
+iv. Print and find the 1st occurance of letter 'R' at it's position
+v. Print the string in upper case
+vi. Print the string in lower case
+vii. Find out if the 1st string is equal to 2nd string or not
+viii. Find out if the 1st string is equal to ignoring case 2nd string or not
+ix. Print the charecter at index of 6
+x. Use substring and extract to print from 4 to 12
+xi. Replace 'G' with 'A' in 1st string
+xii. Take another string and print that string. After that use trim function over that string and print it.
+2. Print pattern:
+&#42;<br>
+&#42;&#42;&#42;<br>
+&#42;&#42;&#42;&#42;&#42;<br>
+3. Print pattern:
+h
+ha
+hap
+happ
+happy
