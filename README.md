@@ -20,7 +20,7 @@
 2. Write a java program to sum up the digits of a given program.
 3. Write a java program to check whether a given no is equal to the original number.
 4. Write a java program to print the pattern by giving input from users.
-*
+&#42;
 * *
 * * *
 * * * *
