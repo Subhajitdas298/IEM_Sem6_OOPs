@@ -19,7 +19,7 @@
 1. Write a Java program to define class, define instance methods and overload them and use them for dynamic method invocation.
 2. Write a java program to sum up the digits of a given program.
 3. Write a java program to check whether a given no is equal to the original number.
-4. Write a java program to print the pattern by giving input from users:
+4. Write a java program to print the pattern by giving input from users:<br>
 &#42;<br>
 &#42;&#42;<br>
 &#42;&#42;&#42;<br>
