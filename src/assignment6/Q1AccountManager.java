@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package assignment6;
 
 import java.util.Scanner;
 
-/**
- *
- * @author guest-IaiyiC
- */
 public class Q1AccountManager {
 
     public static void main(String[] args) {
@@ -37,16 +28,17 @@ public class Q1AccountManager {
         }
 
         while (true) {
-            System.out.println("\nEnter option : ");
+            System.out.println("\nOptions :- ");
             System.out.println("1. Show balance");
-            System.out.println("2. Deposit balance");
-            System.out.println("3. Withdraw balance");
+            System.out.println("2. Deposit amount");
+            System.out.println("3. Withdraw amount");
             System.out.println("4. Deposit interest");
             System.out.println("5. Penalize for low balance");
-                        System.out.println("6. Exit");
-            
+            System.out.println("6. Exit");
+            System.out.print("Enter option : ");
+
             int op = input.nextInt();
-            switch(op){
+            switch (op) {
                 case 1:
                     System.out.println("Balance : " + account.getBalance());
                     break;
@@ -59,10 +51,11 @@ public class Q1AccountManager {
                     System.out.print("Enter amount : ");
                     double amountW = input.nextDouble();
                     double change = account.withdraw(amountW);
-                    if(change == -1)
+                    if (change == -1) {
                         System.out.println("Balance too low");
-                    else
+                    } else {
                         System.out.println("Withdrawn : " + change);
+                    }
                     break;
                 case 4:
                     System.out.println("Interest paid : " + account.payInterest());
@@ -93,10 +86,18 @@ abstract class Account {
         this.accountNumber = accountNo;
         this.balance = openingBalance;
     }
-    
-    public void setInterest(double interest){ this.interest = interest; }
-    public void setMinBalance(double minBalance){ this.minBalance = minBalance; }
-    public void setNoMinBalancePenalty(double penalty){ this.noMinBalancePenalty = penalty; }
+
+    public void setInterest(double interest) {
+        this.interest = interest;
+    }
+
+    public void setMinBalance(double minBalance) {
+        this.minBalance = minBalance;
+    }
+
+    public void setNoMinBalancePenalty(double penalty) {
+        this.noMinBalancePenalty = penalty;
+    }
 
     public double getBalance() {
         return balance;
