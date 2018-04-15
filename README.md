@@ -57,3 +57,16 @@ happy<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;1<br>
 &nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;5<br>
 8&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;21&nbsp;&nbsp;&nbsp;34<br>
+
+## Assignment 7
+1. Write a program to implement StringBuffer class and it's methods.
+2. Write a program to implement inheritance and demonstrate the use of method overriding.
+3. Write a program to implement array of objects.
+4. Write a program to print pattern:<br>
+1 1 1 1 1 1 1<br>
+1 1 1 1 1 2 2<br> 
+1 1 1 1 3 3 3<br> 
+1 1 1 4 4 4 4<br> 
+1 1 5 5 5 5 5<br> 
+1 6 6 6 6 6 6<br> 
+7 7 7 7 7 7 7<br> 
