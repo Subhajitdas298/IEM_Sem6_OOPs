@@ -40,12 +40,14 @@ public class Q1AccountManager {
             int op = input.nextInt();
             switch (op) {
                 case 1:
-                    System.out.println("Balance : " + account.getBalance());
+                    System.out.println("Balance : "
+                            + account.getBalance());
                     break;
                 case 2:
                     System.out.print("Enter amount : ");
                     double amountD = input.nextDouble();
-                    System.out.println("Deposited : " + account.deposit(amountD));
+                    System.out.println("Deposited : "
+                            + account.deposit(amountD));
                     break;
                 case 3:
                     System.out.print("Enter amount : ");
@@ -54,14 +56,17 @@ public class Q1AccountManager {
                     if (change == -1) {
                         System.out.println("Balance too low");
                     } else {
-                        System.out.println("Withdrawn : " + change);
+                        System.out.println("Withdrawn : "
+                                + change);
                     }
                     break;
                 case 4:
-                    System.out.println("Interest paid : " + account.payInterest());
+                    System.out.println("Interest paid : "
+                            + account.payInterest());
                     break;
                 case 5:
-                    System.out.println("Penalty subtracted : " + account.penalize());
+                    System.out.println("Penalty subtracted : "
+                            + account.penalize());
                     break;
                 case 6:
                     System.out.println("Exiting...");
@@ -81,7 +86,8 @@ abstract class Account {
     private double minBalance;
     private double noMinBalancePenalty;
 
-    public Account(String customer, String accountNo, double openingBalance) {
+    public Account(String customer, String accountNo,
+            double openingBalance) {
         this.customerName = customer;
         this.accountNumber = accountNo;
         this.balance = openingBalance;
@@ -125,7 +131,9 @@ abstract class Account {
 
     public double penalize() {
         if (balance < minBalance) {
-            double amount = (noMinBalancePenalty < balance ? noMinBalancePenalty : balance);
+            double amount
+                    = (noMinBalancePenalty < balance
+                            ? noMinBalancePenalty : balance);
             balance -= amount;
             return amount;
         }
@@ -135,7 +143,8 @@ abstract class Account {
 
 class SavingsAccount extends Account {
 
-    public SavingsAccount(String customer, String accountNo, double openingBalance) {
+    public SavingsAccount(String customer,
+            String accountNo, double openingBalance) {
         super(customer, accountNo, openingBalance);
         setInterest(3.5);
         setMinBalance(5000);
@@ -146,7 +155,8 @@ class SavingsAccount extends Account {
 
 class CurrentAccount extends Account {
 
-    public CurrentAccount(String customer, String accountNo, double openingBalance) {
+    public CurrentAccount(String customer,
+            String accountNo, double openingBalance) {
         super(customer, accountNo, openingBalance);
     }
 

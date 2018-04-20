@@ -2,7 +2,7 @@ package assignment6;
 
 import java.util.Scanner;
 
-public class Q3FiboPattern {
+public class Q2FiboPattern {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
