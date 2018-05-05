@@ -1,0 +1,4 @@
+SampleClass
+GetterExample
+assignment3.GetterExample
+assignment3.SampleClass
