@@ -72,7 +72,9 @@ happy<br>
 7 7 7 7 7 7 7<br> 
 
 ## Assignment 8
-
+1. Write a Java program to implement Vector class and its methods.
+2. Write a program to implement wrapper class and its methods.
+3. Write a java program to implement multilevel inheritance by applying various access control to its data members and methods.
 
 ## Assignment 9
 1. Write a Java program to implement the concept of importing classes from user defined package and creating packages.
