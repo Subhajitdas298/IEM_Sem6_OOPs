@@ -70,3 +70,19 @@ happy<br>
 1 1 5 5 5 5 5<br> 
 1 6 6 6 6 6 6<br> 
 7 7 7 7 7 7 7<br> 
+
+## Assignment 8
+
+
+## Assignment 9
+1. Write a Java program to implement the concept of importing classes from user defined package and creating packages.
+2. Write a program to implement the concept of exception handling using predefined and exception & implement concept of exception handling using user defined exception.
+3. Write a program to demonstrate use of interface.
+4. Write a program using applet to display a message.
+
+## Assignment 10
+1. Write a program to demonstrate mouse events.
+2. Write a program to demonstrate keyboard events.
+3. Write a program for using graphic classes to display basic shapes and fill them.
+4. Write a program to implement use concept of threading.
+5. Write a program using events for configuring applets by passing parameters.
