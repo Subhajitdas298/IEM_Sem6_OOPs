@@ -29,7 +29,7 @@ class Account {
     private double balance;
 
     public void setData(String depositor, long account_number,
-            char type, double balance) {
+                        char type, double balance) {
         this.depositor = depositor;
         this.accountNumber = account_number;
         this.type = type;

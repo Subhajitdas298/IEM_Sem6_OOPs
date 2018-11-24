@@ -107,8 +107,8 @@ class Account {
     public String getDepositor() {
         return depositor;
     }
-    
-    public double getBalance(){
+
+    public double getBalance() {
         return balance;
     }
 }

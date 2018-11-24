@@ -3,13 +3,13 @@ package assignment9;
 public class Q2ExceptionExample {
 
     public static void main(String[] args) {
-        try{
+        try {
             int a = 5, b = 0;
             int c = a / b;
-        }catch(ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println("Divided by zero exception");
         }
-        
+
         try {
             throw new MyException();
         } catch (MyException e) {

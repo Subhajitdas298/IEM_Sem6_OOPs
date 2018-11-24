@@ -8,5 +8,5 @@ public class Q1PackageTest {
         System.out.println("Method in main");
         Test.display();
     }
-    
+
 }

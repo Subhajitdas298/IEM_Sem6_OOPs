@@ -87,7 +87,7 @@ abstract class Account {
     private double noMinBalancePenalty;
 
     public Account(String customer, String accountNo,
-            double openingBalance) {
+                   double openingBalance) {
         this.customerName = customer;
         this.accountNumber = accountNo;
         this.balance = openingBalance;
@@ -133,7 +133,7 @@ abstract class Account {
         if (balance < minBalance) {
             double amount
                     = (noMinBalancePenalty < balance
-                            ? noMinBalancePenalty : balance);
+                    ? noMinBalancePenalty : balance);
             balance -= amount;
             return amount;
         }
@@ -144,7 +144,7 @@ abstract class Account {
 class SavingsAccount extends Account {
 
     public SavingsAccount(String customer,
-            String accountNo, double openingBalance) {
+                          String accountNo, double openingBalance) {
         super(customer, accountNo, openingBalance);
         setInterest(3.5);
         setMinBalance(5000);
@@ -156,7 +156,7 @@ class SavingsAccount extends Account {
 class CurrentAccount extends Account {
 
     public CurrentAccount(String customer,
-            String accountNo, double openingBalance) {
+                          String accountNo, double openingBalance) {
         super(customer, accountNo, openingBalance);
     }
 

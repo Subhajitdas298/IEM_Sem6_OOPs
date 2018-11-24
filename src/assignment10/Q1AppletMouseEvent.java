@@ -67,5 +67,5 @@ public class Q1AppletMouseEvent extends Applet implements MouseListener, MouseMo
         message = "Mouse scrolled";
         repaint();
     }
-    
+
 }

@@ -1,2 +1,0 @@
-assignment2.MathOperation
-assignment2.SimpleCalculatorObject

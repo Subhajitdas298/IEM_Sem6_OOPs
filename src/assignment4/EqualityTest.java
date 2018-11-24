@@ -6,21 +6,21 @@ public class EqualityTest {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("Enter the original no : ");
         final int original = input.nextInt();
-        
-        while(true){
+
+        while (true) {
             System.out.print("Try a no : ");
-            if(original == input.nextInt()){
+            if (original == input.nextInt()) {
                 System.out.println("It is the original no.");
-            }else{
+            } else {
                 System.out.println("It is not the original no.");
             }
-            
+
             System.out.print("Exit? (y/n) : ");
-            if(input.next().equals("y")) return;
+            if (input.next().equals("y")) return;
         }
     }
-    
+
 }

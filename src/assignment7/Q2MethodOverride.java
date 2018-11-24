@@ -11,14 +11,14 @@ public class Q2MethodOverride {
     }
 }
 
-class Parent{
-    void test(){
+class Parent {
+    void test() {
         System.out.println("Method at parent");
     }
 }
 
-class Child extends Parent{
-    void test(){
+class Child extends Parent {
+    void test() {
         System.out.println("Overridden at child");
     }
 }

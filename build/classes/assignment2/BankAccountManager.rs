@@ -1,2 +1,0 @@
-assignment2.BankAccountManager
-assignment2.Account

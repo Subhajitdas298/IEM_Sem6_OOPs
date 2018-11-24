@@ -1,4 +1,0 @@
-assignment6.Account
-assignment6.Q1AccountManager
-assignment6.CurrentAccount
-assignment6.SavingsAccount

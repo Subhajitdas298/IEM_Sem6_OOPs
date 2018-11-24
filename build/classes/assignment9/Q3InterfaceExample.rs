@@ -1,3 +1,0 @@
-assignment9.DisplayClass
-assignment9.DisplayInterface
-assignment9.Q3InterfaceExample

@@ -48,7 +48,7 @@ public class SimpleCalculator {
                     } else {
                         System.out.println("Can not divide by zero");
                     }
-                    break;                    
+                    break;
             }
             System.out.println();
         }
